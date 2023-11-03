@@ -23,7 +23,7 @@ const RootLayout = () => {
             className="font-bold text-2xl my-2 cursor-pointer flex items-center font-[Poppins] 
       text-white"
           >
-            <span className="text-3xl text-white mr-1 pt-2">
+            <span className="text-white mr-1 pt-2">
               <img
                 src={logo}
                 className="w-[20px] top-0 mt-[-20px]"
@@ -68,6 +68,18 @@ const RootLayout = () => {
         </div>
       </div>
       <Outlet />
+      <footer className="w-full bottom-0 left-0 bg-black">
+        <div className="flex justify-center text-white">
+          <span>
+          <img
+                src={logo}
+                className="w-[20px] "
+                alt="logo EggSys"
+              />
+          </span>
+          EggSys
+        </div>
+      </footer>
     </>
   );
 };
