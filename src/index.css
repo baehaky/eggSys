@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-white;
+}
+
+@layer utilities {
+  .stretch-normal {
+    font-variation-settings: "wght" 311;
+  }
+  .stretch-wider {
+    font-variation-settings: "wght" 611;
+  }
+  .letter-sm {
+    letter-spacing: -2px;
+  }
+  .letter-wide {
+    letter-spacing: 1px;
+  }
+  .bg-image-polkadot{
+    background-image: radial-gradient(#f5f5f5 1px, #11111942 1px);
+    background-size: 20px 20px;
+  }
+}
