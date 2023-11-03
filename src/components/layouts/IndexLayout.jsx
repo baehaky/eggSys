@@ -46,8 +46,8 @@ const IndexLayout = () => {
           </div>
         </div>
       </main>
-      <GalleryLayout/>
-      {/* <AttendeceLayout/> */}
+      <GalleryLayout />
+      <AttendeceLayout />
     </>
   );
 };
