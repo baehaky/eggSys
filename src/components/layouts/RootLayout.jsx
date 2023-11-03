@@ -50,7 +50,7 @@ const RootLayout = () => {
           </div>
 
           <ul
-            className={`md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+            className={`md:flex md:items-center md:pb-0 fixed md:static md:z-auto z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
               open ? "top-20 bg-white text-black" : "top-[-490px] text-white"
             }`}
           >
