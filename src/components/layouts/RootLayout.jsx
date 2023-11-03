@@ -17,7 +17,7 @@ const RootLayout = () => {
   // });
   return (
     <>
-      <div className="w-full top-0 left-0 fixed z-10 overflow-hidden bg-indigo-950">
+      <div className="w-full top-0 left-0 fixed z-50 overflow-hidden bg-indigo-950">
         <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
           <div
             className="font-bold text-2xl my-2 cursor-pointer flex items-center font-[Poppins] 
@@ -50,12 +50,12 @@ const RootLayout = () => {
           </div>
 
           <ul
-            className={`md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+            className={`md:flex md:items-center md:pb-0 fixed md:static md:z-auto z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
               open ? "top-20 bg-white text-black" : "top-[-490px] text-white"
             }`}
           >
-            {Links.map((link, index) => (
-              <li key={index} className="md:ml-8 text-lg  md:my-0 my-7">
+            {Links.map((link) => (
+              <li key={link.name} className="md:ml-8 text-lg  md:my-0 my-7">
                 <a
                   href={link.link}
                   className="hover:text-slate-300 hover:underline no-underline hover:decoration-white duration-500 "
