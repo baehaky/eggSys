@@ -633,6 +633,10 @@ video {
   height: 100%;
 }
 
+.w-60 {
+  width: 15rem;
+}
+
 .w-\[20px\] {
   width: 20px;
 }
@@ -641,12 +645,12 @@ video {
   width: 100%;
 }
 
-.w-96 {
-  width: 24rem;
+.w-6 {
+  width: 1.5rem;
 }
 
-.w-80 {
-  width: 20rem;
+.w-64 {
+  width: 16rem;
 }
 
 .cursor-pointer {
@@ -720,6 +724,11 @@ video {
 .py-72 {
   padding-top: 18rem;
   padding-bottom: 18rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .pl-9 {

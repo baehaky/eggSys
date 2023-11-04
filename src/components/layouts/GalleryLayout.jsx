@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import gambar1 from "../../assets/image/abumida.png";
-import gambar2 from "../../assets/image/putrihomecooking.jpg";
+import gambar2 from "../../assets/image/putrihomecooking.png";
 import gambar3 from "../../assets/image/jambi.png";
 import gambar4 from "../../assets/image/timtelur.png";
 import gambar5 from "../../assets/image/umnjuice.png";
@@ -28,24 +28,24 @@ export default function GalleryLayout() {
     },
   };
   return (
-    <section className="flex flex-col bg-image-polkadot-carousel">
+    <section className="flex flex-col bg-image-polkadot-carousel py-40">
       <h1 className="text-center text-3xl font-bold underline text-violet-950 mb-9 hover:decoration-violet-500">TERIMAKASIH KEPADA</h1>
       <div>
         <Carousel responsive={responsive}>
           <div className="flex items-center h-full">
-            <img src={gambar1} />
+            <img src={gambar1} className="w-64" />
           </div>
           <div className="flex items-center h-full">
-            <img src={gambar2} className="w-80" />
+            <img src={gambar2} className="w-64" />
           </div>
           <div className="flex items-center h-full">
-            <img src={gambar3} />
+            <img src={gambar3} className="w-64" />
           </div>
           <div className="flex items-center h-full">
-            <img src={gambar4} />
+            <img src={gambar4} className="w-64" />
           </div>
           <div className="flex items-center h-full">
-            <img src={gambar5} />
+            <img src={gambar5} className="w-64" />
           </div>
           
         
