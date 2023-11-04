@@ -18,7 +18,7 @@ export default function GalleryLayout() {
         max: 3000,
         min: 1024,
       },
-      items: 3,
+      items: 4,
       partialVisibilityGutter: 40,
     },
     mobile: {
@@ -34,16 +34,13 @@ export default function GalleryLayout() {
         max: 1024,
         min: 464,
       },
-      items: 2,
+      items: 3,
       partialVisibilityGutter: 30,
     },
   };
   return (
     <section className="bg-image-polkadot-carousel py-40">
-      <h1
-        id="absen"
-        className="text-center text-3xl font-bold underline text-violet-950 mb-9 hover:decoration-violet-500"
-      >
+      <h1 className="text-center text-3xl font-bold underline text-violet-950 mb-9 hover:decoration-violet-500">
         TERIMAKASIH KEPADA
       </h1>
       <div>
