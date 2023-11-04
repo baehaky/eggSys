@@ -36,7 +36,7 @@ export default function GalleryLayout() {
             <img src={gambar1} />
           </div>
           <div className="flex items-center h-full">
-            <img src={gambar2} />
+            <img src={gambar2} className="w-80" />
           </div>
           <div className="flex items-center h-full">
             <img src={gambar3} />
