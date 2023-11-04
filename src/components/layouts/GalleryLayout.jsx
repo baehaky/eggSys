@@ -48,14 +48,9 @@ export default function GalleryLayout() {
             <img src={gambar5} />
           </div>
           
-          
-            {/* <img src={gambar2} />
-            <img src={gambar3} />
-            <img src={gambar4} /> */}
+        
         </Carousel>
       </div>
-      {/* <Carousel responsive={responsive} containerClass={`w-full`}>
-      </Carousel> */}
     </section>
   );
 }
