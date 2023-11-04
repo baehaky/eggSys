@@ -8,7 +8,7 @@ const RootLayout = () => {
     { name: "HOME", link: "#home" },
     { name: "GALLERY", link: "/" },
     { name: "EVENT", link: "/" },
-    { name: "ATTENDANCE", link: "/" },
+    { name: "ATTENDANCE", link: "#absen" },
     { name: "ABOUT US", link: "" },
   ];
   let [open, setOpen] = useState(false);

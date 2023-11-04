@@ -28,23 +28,23 @@ export default function GalleryLayout() {
     },
   };
   return (
-    <section className="flex flex-col bg-image-polkadot-carousel py-40">
-      <h1 className="text-center text-3xl font-bold underline text-violet-950 mb-9 hover:decoration-violet-500">TERIMAKASIH KEPADA</h1>
+    <section className="bg-image-polkadot-carousel py-40">
+      <h1 id="absen" className="text-center text-3xl font-bold underline text-violet-950 mb-9 hover:decoration-violet-500">TERIMAKASIH KEPADA</h1>
       <div>
         <Carousel responsive={responsive}>
-          <div className="flex items-center h-full">
+          <div className="flex items-center justify-center h-full">
             <img src={gambar1} className="w-64" />
           </div>
-          <div className="flex items-center h-full">
+          <div className="flex items-center justify-center h-full">
             <img src={gambar2} className="w-64" />
           </div>
-          <div className="flex items-center h-full">
+          <div className="flex items-center justify-center h-full">
             <img src={gambar3} className="w-64" />
           </div>
-          <div className="flex items-center h-full">
+          <div className="flex items-center justify-center h-full">
             <img src={gambar4} className="w-64" />
           </div>
-          <div className="flex items-center h-full">
+          <div className="flex items-center justify-center h-full">
             <img src={gambar5} className="w-64" />
           </div>
           
