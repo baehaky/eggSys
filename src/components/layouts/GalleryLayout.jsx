@@ -5,6 +5,7 @@ import gambar1 from "../../assets/image/abumida.png";
 import gambar2 from "../../assets/image/putrihomecooking.jpg";
 import gambar3 from "../../assets/image/jambi.png";
 import gambar4 from "../../assets/image/timtelur.png";
+import gambar5 from "../../assets/image/umnjuice.png";
 export default function GalleryLayout() {
   const image = {};
   const responsive = {
@@ -42,6 +43,9 @@ export default function GalleryLayout() {
           </div>
           <div className="flex items-center h-full">
             <img src={gambar4} />
+          </div>
+          <div className="flex items-center h-full">
+            <img src={gambar5} />
           </div>
           
           
