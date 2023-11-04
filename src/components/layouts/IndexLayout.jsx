@@ -2,19 +2,29 @@ import React from "react";
 import image from "../../assets/image/confuse.png";
 import GalleryLayout from "./GalleryLayout";
 import AttendeceLayout from "./AttendenceLayout";
+import { motion } from "framer-motion";
 
 const IndexLayout = () => {
   return (
     <>
       <main id="home">
-        <div className="flex justify-center w-full h-full bg-image-polkadot lg:py-80 sm:py-56 py-72">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.5,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+          className="flex justify-center w-full h-full bg-image-polkadot lg:py-80 sm:py-56 py-72"
+        >
           <h1 className="text-white font-bold lg:text-5xl sm:text-4xl text-2xl text-center">
             <span className="block font-mono lg:text-7xl underline hover:decoration-red-500 transition delay-150 ease-out">
               Welcome!
             </span>
             EGGSYS
           </h1>
-        </div>
+        </motion.div>
         <div className="px-16 mt-20">
           <div className="w-full flex flex-col sm:flex-row justify-between mx-auto">
             <div className="mt-10">
