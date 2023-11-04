@@ -1,17 +1,10 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import gambar1 from "../../assets/image/abumida.png";
-import gambar2 from "../../assets/image/putrihomecooking.png";
-import gambar3 from "../../assets/image/jambi.png";
-import gambar4 from "../../assets/image/timtelur.png";
-import gambar5 from "../../assets/image/umnjuice.png";
-import gambar6 from "../../assets/image/ad.png";
-import gambar7 from "../../assets/image/himsi.png";
-import gambar8 from "../../assets/image/pendidikan.png";
-import gambar9 from "../../assets/image/pointkampus.png";
+import data from "../../data/data";
 export default function GalleryLayout() {
-  const image = {};
+  const images = data.map(({ link }) => link);
+
   const responsive = {
     desktop: {
       breakpoint: {
@@ -45,33 +38,14 @@ export default function GalleryLayout() {
       </h1>
       <div>
         <Carousel responsive={responsive}>
-          <div className="flex items-center justify-center h-full">
-            <img src={gambar1} className="w-64" />
-          </div>
-          <div className="flex items-center justify-center h-full">
-            <img src={gambar2} className="w-64" />
-          </div>
-          <div className="flex items-center justify-center h-full">
-            <img src={gambar3} className="w-64" />
-          </div>
-          <div className="flex items-center justify-center h-full">
-            <img src={gambar4} className="w-64" />
-          </div>
-          <div className="flex items-center justify-center h-full">
-            <img src={gambar5} className="w-64" />
-          </div>
-          <div className="flex items-center justify-center h-full">
-            <img src={gambar6} className="w-64" />
-          </div>
-          <div className="flex items-center justify-center h-full">
-            <img src={gambar7} className="w-64" />
-          </div>
-          <div className="flex items-center justify-center h-full">
-            <img src={gambar8} className="w-64" />
-          </div>
-          <div className="flex items-center justify-center h-full">
-            <img src={gambar9} className="w-64" />
-          </div>
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className="flex items-center justify-center h-full"
+            >
+              <img src={image} className="w-64" />
+            </div>
+          ))}
         </Carousel>
       </div>
     </section>

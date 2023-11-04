@@ -534,40 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .fixed {
   position: fixed;
 }
@@ -631,6 +597,11 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mb-9 {
   margin-bottom: 2.25rem;
 }
@@ -661,10 +632,6 @@ video {
 
 .flex {
   display: flex;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-full {
@@ -759,6 +726,11 @@ video {
 .py-72 {
   padding-top: 18rem;
   padding-bottom: 18rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pl-9 {
@@ -873,7 +845,7 @@ video {
 
 .bg-image-polkadot-carousel {
   background-image: radial-gradient(#000000 1px, rgb(255, 255, 255) 1px);
-  background-size: 20px 20px;
+  background-size: 30px 30px;
 }
 
 .hamburger-line {
