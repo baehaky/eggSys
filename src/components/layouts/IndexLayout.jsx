@@ -2,7 +2,9 @@ import React from "react";
 import image from "../../assets/image/confuse.png";
 import GalleryLayout from "./GalleryLayout";
 import AttendeceLayout from "./AttendenceLayout";
+import EventlLayout from "./EventlLayout";
 import { motion } from "framer-motion";
+import AboutUs from "./AboutUs";
 
 const IndexLayout = () => {
   return (
@@ -56,6 +58,8 @@ const IndexLayout = () => {
           </div>
         </div>
       </main>
+      <EventlLayout />
+      <AboutUs />
       <GalleryLayout />
       <AttendeceLayout />
     </>

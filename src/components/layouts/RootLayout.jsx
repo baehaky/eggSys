@@ -7,9 +7,9 @@ const RootLayout = () => {
   let Links = [
     { name: "HOME", link: "#home" },
     { name: "GALLERY", link: "/" },
-    { name: "EVENT", link: "/" },
+    { name: "EVENT", link: "#ttl" },
     { name: "ATTENDANCE", link: "#absen" },
-    { name: "ABOUT US", link: "" },
+    { name: "ABOUT US", link: "#aboutus" },
   ];
   let [open, setOpen] = useState(false);
   // hamburger?.addEventListener("click", (e) => {
@@ -70,6 +70,7 @@ const RootLayout = () => {
       <Outlet />
       <footer className="w-full bottom-0 left-0 bg-black">
         <div className="flex justify-center text-white">
+          Copyright &copy;
           <span>
           <img
                 src={logo}
