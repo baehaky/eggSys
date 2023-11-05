@@ -23,7 +23,7 @@ export default function EventlLayout() {
                 <span className="underline decoration-cyan-500 hover:decoration-cyan-800 ml-2 sm:ml-5">
                   Selasa
                 </span>
-                , 31 Oktober 2023
+                , 7 November 2023
               </h1>
             </div>
             <div className="flex w-full">
