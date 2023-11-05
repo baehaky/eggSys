@@ -21,7 +21,7 @@ const IndexLayout = () => {
             }}
             className="text-white font-bold lg:text-5xl sm:text-4xl text-2xl text-center"
           >
-            <span className="block uppercase font-mono text-xl lg:text-7xl underline hover:decoration-red-500 transition delay-150 ease-out">
+            <span className="block uppercase font-mono text-3xl lg:text-7xl underline hover:decoration-red-500 transition delay-150 ease-out">
               Welcome!
             </span>
             EGGSYS
