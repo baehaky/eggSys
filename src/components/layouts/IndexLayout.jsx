@@ -61,7 +61,7 @@ const IndexLayout = () => {
       <EventlLayout />
       <AboutUs />
       <GalleryLayout />
-      {/* <AttendeceLayout /> */}
+      <AttendeceLayout />
     </>
   );
 };

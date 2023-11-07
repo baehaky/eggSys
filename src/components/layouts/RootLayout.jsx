@@ -6,10 +6,10 @@ import logo from "../../assets/image/logo.png";
 const RootLayout = () => {
   let Links = [
     { name: "HOME", link: "#home" },
-    { name: "GALLERY", link: "/" },
-    { name: "EVENT", link: "#ttl" },
-    { name: "ATTENDANCE", link: "#absen" },
-    { name: "ABOUT US", link: "#aboutus" },
+    { name: "GALERI", link: "/" },
+    { name: "ACARA", link: "#ttl" },
+    { name: "ABSENSI", link: "#absen" },
+    { name: "TENTANG KAMI", link: "#aboutus" },
   ];
   let [open, setOpen] = useState(false);
   // hamburger?.addEventListener("click", (e) => {
