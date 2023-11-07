@@ -1,5 +1,5 @@
 import React from "react";
-class AttendeceLayout extends React.Component {
+class AttendenceLayout extends React.Component {
   render() {
     return (
       <section id="absen" className="flex justify-center py-32 mx-8 flex-col">
@@ -22,4 +22,4 @@ class AttendeceLayout extends React.Component {
   }
 }
 
-export default AttendeceLayout;
+export default AttendenceLayout;
