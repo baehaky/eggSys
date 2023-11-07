@@ -2,7 +2,11 @@ import React from "react";
 class AttendeceLayout extends React.Component {
   render() {
     return (
-      <section id="absen" className="flex justify-center py-32 mx-8">
+      <section id="absen" className="flex justify-center py-32 mx-8 flex-col">
+        <div className="text-center mb-10 text-3xl underline text-white uppercase">
+          Absensi
+        </div>
+
         <div id="ff-compose"></div>
       </section>
     );
